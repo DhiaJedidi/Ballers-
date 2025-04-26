@@ -1,0 +1,155 @@
+@import url('https://fo nts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+.adminformcontainer{
+   display: flex;
+   justify-content: center;
+   font-family: "Montserrat", sans-serif;
+   background-image: url('../pages/images/band.jpg');
+   background-size: cover;
+   background-position: right;
+   background-repeat: no-repeat;
+   width: 100vw;
+   height: 100vh;
+}
+
+.adminformcontainer h1{
+   font-size: 5vh;
+}
+
+.formcontainer{
+   display: flex;
+   justify-content: center;
+   font-family: "Montserrat", sans-serif;
+   background-image: url('../pages/images/band.jpg');
+   background-size: cover;
+   background-position: right;
+   background-repeat: no-repeat;
+   width: 100vw;
+   height: 100vh;
+   
+
+}
+
+.loginform{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   display:flex;
+   flex-direction: column;
+   width: 500px;
+   height: 80vh;
+   padding: 5vh 7vh 4vh 7vh;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.305);
+   border-radius: 20px;
+   background: rgba(164, 220, 255, 0.73);
+   border-radius: 16px;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(8.7px);
+   -webkit-backdrop-filter: blur(8.7px);
+   border: 1px solid rgba(255, 255, 255, 0.8);
+   margin: 10vh;
+
+}
+
+form h1{
+   text-align: center;
+   margin-bottom: 10vh;
+   text-transform: uppercase;
+   font-size: 50px;
+   color: orangered;
+}
+
+#emailinput{
+   border: none;
+   height: 40px;
+   border-radius: 5vw;
+   margin-bottom: 2vh;
+}
+
+
+#pswrdinput{
+   border: none;
+   height: 40px;
+   border-radius: 5vw;
+   margin-bottom: 2vh;
+}
+
+.login {
+   padding-left: 30px;
+}
+
+
+a{
+   text-decoration: none;
+}
+.rme {
+   display: flex;
+   color: white;
+   font-size: 15px;
+   width: 30vw;
+   text-transform: capitalize;
+
+}
+
+
+.forgetpswrd {
+   text-decoration: none ;
+   color: white;
+   text-align: right;
+   margin-left: 9.32vw;
+}
+
+
+.sub2 {
+   border: none;
+   height: 40px;
+   margin-top: 5vh;
+   border-radius: 5vw;
+   margin-bottom: 2vh;
+   background-color: orangered;
+   color: white;
+   margin-bottom: 50px;
+}
+
+
+.notamember {
+   display: flex;
+   color: white;
+   font-size: 15px;
+   text-transform: capitalize;
+   align-items: center;
+   gap: 10px;
+   align-items: center;
+   justify-content: center;
+}
+
+.asadmin{
+   display: flex;
+   color: white;
+   font-size: 15px;
+   text-transform: capitalize;
+   align-items: center;
+   gap: 10px;
+   align-items: center;
+   justify-content: center;
+}
+
+.signup {
+   text-decoration: none;
+   color: rgb(0, 166, 255);
+   font-weight: bold;
+   color: rgb(255, 255, 255);
+   text-transform: capitalize;
+   cursor: pointer;
+}
+
+.namesg {
+   border: none;
+   height: 40px;
+   border-radius: 5vw;
+   margin-bottom: 2vh;  
+   padding-left: 30px;
+}
